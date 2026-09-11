@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12201.205 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquipmentBorrowing.Domain", "src\EquipmentBorrowing.Domain\EquipmentBorrowing.Domain.csproj", "{2DB80E07-1A20-4EF3-B73E-AF62859A0BDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquipmentBorrowing.Application", "src\EquipmentBorrowing.Application\EquipmentBorrowing.Application.csproj", "{F3B830A3-AA2D-4F51-9092-A9D1D1CA229F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquipmentBorrowing.Infrastructure", "src\EquipmentBorrowing.Infrastructure\EquipmentBorrowing.Infrastructure.csproj", "{F54890DF-C005-475B-B24B-2D670A49D0D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquipmentBorrowing.Console", "src\EquipmentBorrowing.Console\EquipmentBorrowing.Console.csproj", "{CCB4DFC7-8246-46C7-8B67-2129A2F1EA7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquipmentBorrowing.Desktop", "src\EquipmentBorrowing.Desktop\EquipmentBorrowing.Desktop.csproj", "{9F1F3EFB-8F9A-4D0A-9F3B-7C61B7A2D9F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquipmentBorrowing.Tests", "tests\EquipmentBorrowing.Tests\EquipmentBorrowing.Tests.csproj", "{AE5526F0-B481-4E41-A370-D28749190BED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DB80E07-1A20-4EF3-B73E-AF62859A0BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB80E07-1A20-4EF3-B73E-AF62859A0BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB80E07-1A20-4EF3-B73E-AF62859A0BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB80E07-1A20-4EF3-B73E-AF62859A0BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B830A3-AA2D-4F51-9092-A9D1D1CA229F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B830A3-AA2D-4F51-9092-A9D1D1CA229F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B830A3-AA2D-4F51-9092-A9D1D1CA229F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B830A3-AA2D-4F51-9092-A9D1D1CA229F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F54890DF-C005-475B-B24B-2D670A49D0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54890DF-C005-475B-B24B-2D670A49D0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54890DF-C005-475B-B24B-2D670A49D0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54890DF-C005-475B-B24B-2D670A49D0D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB4DFC7-8246-46C7-8B67-2129A2F1EA7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB4DFC7-8246-46C7-8B67-2129A2F1EA7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB4DFC7-8246-46C7-8B67-2129A2F1EA7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB4DFC7-8246-46C7-8B67-2129A2F1EA7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F1F3EFB-8F9A-4D0A-9F3B-7C61B7A2D9F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F1F3EFB-8F9A-4D0A-9F3B-7C61B7A2D9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F1F3EFB-8F9A-4D0A-9F3B-7C61B7A2D9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F1F3EFB-8F9A-4D0A-9F3B-7C61B7A2D9F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE5526F0-B481-4E41-A370-D28749190BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5526F0-B481-4E41-A370-D28749190BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5526F0-B481-4E41-A370-D28749190BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5526F0-B481-4E41-A370-D28749190BED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
